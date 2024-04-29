@@ -1,0 +1,272 @@
+
+/* basic  */
+#root {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* card.jsx styling */
+.container{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background-color: white;
+  width:1350px;
+  margin:0px;
+  justify-content: center;
+  
+  
+ 
+  
+}
+
+img {
+  width: 600px;
+  height:480px;
+  margin-top:2px;
+ 
+}
+
+/* Icons.jsx styling */
+.content{
+  margin:30px;
+  font-size: 22px;
+  font-weight:lighter ;
+  text-align: justify;
+  
+ 
+ 
+}
+.icons{
+  
+  color:rgb(3, 141, 196);
+ 
+}
+.I-container{
+display:inline-block;
+width:400px;
+height:250px;
+gap:1.5rem;
+justify-content: space-around; 
+margin-bottom: 60px;
+margin-top: 50px;
+
+
+}
+.I-data{
+  
+  background-color: whitesmoke;
+  width:1230px;
+ 
+}
+
+/* Icons.jsx >People styling */
+.image{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  margin-left:100px;
+}
+.peo-container{
+ display: flex;
+ background-color: whitesmoke;
+ width:1230px;
+  
+ 
+}
+.P-content{
+ margin-top: 100px;
+ margin-right: 100px;
+  
+}
+.name{
+ margin-left: 80px;
+}
+.rev{
+ margin-left:50px; 
+ 
+}
+
+/* HF.jsx styling */
+.head{
+  position: absolute;
+ right:40px; 
+ left:200px; 
+  
+}
+.h-container{
+  width: 1230px;
+  height: 520px;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") ;
+ 
+}
+.hf-content{
+  display: flex;
+  justify-content: center;
+  margin-top:200px;
+}
+.inbox{
+  width:250px;
+  height: 60px;
+  font-weight: 20px;
+  font-size: 25px;
+  border:none;
+  border-radius: 8px;
+  margin:10px;
+}
+.btn {
+   height:60px; 
+   margin:10px;
+   border:none;
+  margin-top: 10px;
+  /* background-color:rgb(3, 141, 196) ;  */
+    
+   opacity: 0.5;
+  border-radius:8px ;
+   color:white;  
+}  
+
+
+.para{
+color:white;
+margin-top: 20px;
+font-size: 2.5em;
+font-weight: 500;
+position: relative;
+top:100px;
+left:400px;
+width: 450px;
+
+}
+/* Heder &footer styling */
+.para{
+  color:white;
+margin-top: 20px;
+font-size: 2.5em;
+font-weight: 500;
+position: relative;
+top:100px;
+left:400px;
+width: 450px;
+
+}
+.f-container{
+  width: 1230px;
+  height: 400px;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") ;
+  padding-bottom: 40px;
+  margin-top:0px;
+  margin-bottom: 40px;
+
+}
+.f-para{
+  color:white;
+  margin-top: 20px;
+font-size: 2.5em;
+font-weight: 500;
+position: relative;
+top:100px;
+left:300px;
+width: 650px;
+
+}
+/* icons styling */
+.window .layer .terminal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+ 
+}
+.window .bi{
+  cursor: pointer;
+  font-size: 70px;
+}
+
+ .layer .bi{
+  cursor: pointer;
+  font-size: 70px;
+} 
+
+ .terminal .bi{
+  cursor: pointer;
+  font-size: 70px;
+  
+}
+/* fooder ,fb, twitter, instragram icons styling  */
+.fb {
+  color:blue;
+  display: flex;
+  justify-content: end;
+  height:10vh;
+}
+.fb .bi{
+  cursor:pointer;
+  font-size: 30px;
+}
+.twitter{
+  color:blue;
+  display: flex;
+  justify-content: end;
+  height:10vh;
+}
+.twitter .bi{
+  cursor:pointer;
+  font-size: 30px;
+}
+.instra{
+  color:blue;
+  display: flex;
+  justify-content: end;
+  height:10vh;
+}
+.instra .bi{
+  cursor:pointer;
+  font-size: 30px;
+}
+.mediacontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+ position: absolute;
+right:10px;
+left:65em;
+top:205em;
+margin: 10px;
+
+margin-bottom:15px;
+  padding:5px;
+ 
+ 
+}
+.about{
+  text-decoration: underline;
+}
+.contact{
+  text-decoration: underline; 
+}
+.terms{
+  text-decoration: underline;
+}
+.policy{
+  text-decoration: underline;
+}
+.anchor-container{
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  gap:0.5em;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.endpara{
+  margin-right:900px;
+}
+
+
+
+
+
+
+
+ 
