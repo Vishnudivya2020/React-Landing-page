@@ -5,13 +5,15 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  overflow: hidden;
 }
 /* card.jsx styling */
 .container{
   display: grid;
   grid-template-columns: 2fr 2fr;
   background-color: white;
-  width:1350px;
+  width:100%;
+   max-width: 1200px;
   margin:0px;
   justify-content: center;
   
@@ -44,7 +46,7 @@ img {
 }
 .I-container{
 display:inline-block;
-width:400px;
+width: 400px;
 height:250px;
 gap:1.5rem;
 justify-content: space-around; 
@@ -261,6 +263,182 @@ margin-bottom:15px;
 }
 .endpara{
   margin-right:900px;
+}
+/* ================= MEDIA QUERIES ================= */
+
+/* ===== Laptop (max-width: 1200px) ===== */
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .para, .f-para {
+    left: 0;
+    width: auto;
+    text-align: center;
+  }
+
+  .peo-container,
+  .I-data,
+  .f-container {
+    width: 100%;
+  }
+
+  .P-content {
+    margin: 50px auto;
+    text-align: center;
+  }
+}
+
+/* ===== Tablet (max-width: 768px) ===== */
+@media (max-width: 768px) {
+  /* Cards */
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Icons Section */
+  .I-data {
+    width: 100%;
+  }
+
+  .I-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* People Section */
+  .peo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    margin: 0 auto;
+  }
+
+  .P-content {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  /* Header Section */
+  .h-container,
+  .f-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .para, .f-para {
+    position: static;
+    width: 90%;
+    font-size: 1.8em;
+    margin: 0 auto;
+  }
+
+  .hf-content {
+    flex-direction: column;
+  }
+
+  .inbox, .btn {
+    width: 80%;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  /* Footer icons */
+  .fb, .twitter, .instra {
+    justify-content: center;
+    height: auto;
+  }
+
+  /* Media links */
+  .mediacontainer {
+    grid-template-columns: 1fr 1fr;
+    position: static;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .anchor-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .endpara {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+/* ===== Mobile (max-width: 480px) ===== */
+@media (max-width: 480px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .para, .f-para {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .inbox, .btn {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .P-content {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .I-container, .mediacontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .fb, .twitter, .instra {
+    justify-content: center;
+  }
+
+  .anchor-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .endpara {
+    text-align: center;
+    margin: 0;
+  }
 }
 
 
